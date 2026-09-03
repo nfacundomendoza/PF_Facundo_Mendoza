@@ -3,7 +3,7 @@ import { ArrowUpRight, ArrowDown, Download, MapPin, Code2, GraduationCap, ScanLi
 const projects = [
   { id: '01', name: 'Sistema de gestión de asistencias', institution: 'Facultad de Ciencias Médicas · UNLP', category: 'EDUCACIÓN', date: '2024', icon: ScanLine, color: 'mint', description: 'Una aplicación web para gestionar la asistencia mediante códigos QR. Desarrollada para la Facultad de Ciencias Médicas y utilizada por la institución.', tags: ['Aplicación web', 'Códigos QR', 'Gestión institucional'], context: 'Junio — diciembre de 2024', status: 'En uso en la institución' },
   { id: '02', name: 'Registro clínico en terapia intensiva', institution: 'Hospital Dr. Pepe Olaechea · Pinamar', category: 'SALUD', date: '2025', icon: HeartPulse, color: 'blue', description: 'Formularios digitales para registrar y almacenar información de pacientes, con foco en mejorar la rapidez y la organización de los registros clínicos.', tags: ['Aplicación web', 'Formularios digitales', 'Gestión de datos'], context: 'Enero — marzo de 2025', status: 'Finalizado' },
-  { id: '03', name: 'Sistema de gestión de oportunidades inmobiliarias', institution: 'FlipTracker · Proyecto independiente', category: 'INMOBILIARIA', date: '2026', icon: Building2, color: 'violet', description: 'App para Windows y Android que permite comparar oportunidades inmobiliarias, estimar inversión y rentabilidad, y respaldar la información en Google Drive.', tags: ['Flutter / Dart', 'SQLite', 'Google Drive'], context: 'Julio — septiembre de 2026', status: 'Finalizado' },
+  { id: '03', name: 'Sistema de gestión inmobiliaria', institution: 'FlipTracker · Proyecto independiente', category: 'INMOBILIARIA', date: '2026', icon: Building2, color: 'violet', description: 'App para Windows y Android que permite comparar oportunidades inmobiliarias, estimar inversión y rentabilidad, y respaldar la información en Google Drive.', tags: ['Flutter / Dart', 'SQLite', 'Google Drive'], context: 'Julio — septiembre de 2026', status: 'Finalizado' },
 ];
 
 export default function Home() {
@@ -37,6 +37,9 @@ export default function Home() {
     </>
   );
 }
+
+
+
 
 
 
